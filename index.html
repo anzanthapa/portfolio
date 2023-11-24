@@ -4,7 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anzan Thapa - Homepage</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Add your favicon links here if needed -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #007bff;
+            padding: 80px 0;
+            color: white;
+            text-align: center;
+        }
+
+        section {
+            margin: 40px 0;
+            padding: 40px 0;
+            background-color: #ffffff;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
 
@@ -13,40 +40,29 @@
     </header>
 
     <section>
-        <h2>About Me</h2>
-        <p>
-            I am Bhoj Raj Thapa, also known as Anzan Thapa, a Ph.D. student in Electrical Engineering at the University of Kentucky, USA. My research focuses on developing brain-machine interfaces using EEG signals to control robotic arms.
-        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>
+                        I am Bhoj Raj Thapa, also known as Anzan Thapa, a Ph.D. student in Electrical Engineering at the University of Kentucky, USA. My research focuses on developing brain-machine interfaces using EEG signals to control robotic arms.
+                    </p>
+                </div>
+                <!-- Add more sections and columns as needed -->
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Education</h2>
-        <p>
-            <strong>Ph.D. in Electrical Engineering</strong><br>
-            University of Kentucky, Lexington, Kentucky, USA
-        </p>
-        <p>
-            <strong>Master of Science (MS) in Electrical Engineering</strong><br>
-            University of Kentucky, Lexington, Kentucky, USA
-        </p>
-        <p>
-            <strong>Bachelor of Electronics and Communication Engineering</strong><br>
-            Nepal Engineering College, Bhaktapur, Nepal
-        </p>
-    </section>
-
-    <!-- Add more sections as needed, e.g., Research Interests, Work/Research Experience, Projects, Publications, etc. -->
-
-    <section>
-        <h2>Contact Information</h2>
-        <p>Email: bhojraj.thapa@uky.edu</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/anzanthapa/">linkedin.com/in/anzanthapa</a></p>
-        <p>Phone: +1-(859) 436-3461</p>
-    </section>
+    <!-- Add more styled sections as needed -->
 
     <footer>
         <p>&copy; 2023 Anzan Thapa. All rights reserved.</p>
     </footer>
+
+    <!-- Add Bootstrap JS and Popper.js scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
