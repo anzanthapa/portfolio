@@ -259,5 +259,22 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+    /**
+   * Last Modified Timestamp Display
+   */
+  document.addEventListener('DOMContentLoaded', () => {
+    const el = document.getElementById('last-modified-time');
+    if (!el) return;
+    const modified = new Date(document.lastModified);
+    el.setAttribute('datetime', modified.toISOString());
+    el.textContent = modified.toLocaleString(undefined, {
+      year:   'numeric',
+      month:  'long',
+      day:    'numeric',
+      hour:   '2-digit',
+      minute: '2-digit',
+      second: '2-digit'
+    });
+  });
 
 })()
