@@ -1,6 +1,6 @@
 # Bhoj Raj Thapa - Personal Website
 
-Welcome to the repository for [Bhoj Raj Thapa's Personal Website](https://anzanthapa.github.io/portfolio/)! This website is a comprehensive showcase of my work, research, and interests in the fields of Biomedical Signal Processing, Machine Learning, and Neural Engineering.
+Welcome to the repository for [Bhoj Raj Thapa's Personal Website](https://brthapa.com.np)! This website is a comprehensive showcase of my work, research, and interests in the fields of Biomedical Signal Processing, Machine Learning, and Neural Engineering.
 
 ## Overview
 
