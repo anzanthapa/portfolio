@@ -16,6 +16,6 @@ This personal website serves as an online portfolio and hub for my academic and 
 
 ## Visit the Website
 
-Explore the full website here: [https://anzanthapa.github.io/portfolio/](https://anzanthapa.github.io/portfolio/)
+Explore the full website here: [https://brthapa.com.np](https://brthapa.com.np)
 
 
