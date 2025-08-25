@@ -466,6 +466,17 @@ section {
   background-color: #149ddd;
 }
 
+/* Skills (years-based) */
+.skill-card { transition: transform .15s ease, box-shadow .15s ease; }
+.skill-card:hover { transform: translateY(-2px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.08); }
+
+/* If your Bootstrap version doesn't have .text-bg-primary, fall back: */
+.badge.text-bg-primary {
+  background-color: #0d6efd; /* Bootstrap primary */
+  color: #fff;
+}
+
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
